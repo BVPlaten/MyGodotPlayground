@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://cb80udg66bhpi"]
+[gd_scene load_steps=3 format=3 uid="uid://cb80udg66bhpi"]
+
+[ext_resource type="Script" path="res://Quader.gd" id="1_hv2hg"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5yj6h"]
 vertex_color_use_as_albedo = true
@@ -13,6 +15,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.69132, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.305664, 0, 0)
 size = Vector3(0.388672, 1, 1)
 material = SubResource("StandardMaterial3D_5yj6h")
+script = ExtResource("1_hv2hg")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.35769)
